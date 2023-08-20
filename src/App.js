@@ -5,6 +5,7 @@ import Counter from "./components/Counter";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Effect from "./components/Effect";
+import Loader from "./components/Loader";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Counter/>
     <Navbar/>
     <Cards/>
+    <Loader/>
     <Effect/>
     <ToastContainer 
     position="top-right"
